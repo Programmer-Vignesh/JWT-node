@@ -1,0 +1,11 @@
+{
+  "name": "jwt-node",
+  "version": "0.1.0",
+  "description": "Implementing JWT Authentication in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vignesh",
+  "license": "ISC"
+}
