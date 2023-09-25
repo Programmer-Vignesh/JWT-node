@@ -4,8 +4,18 @@
   "description": "Implementing JWT Authentication in NodeJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Vignesh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.5.2",
+    "mongoose-timestamp": "^0.6.0",
+    "restify": "^11.1.0",
+    "restify-errors": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
